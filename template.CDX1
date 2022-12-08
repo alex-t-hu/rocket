@@ -133,7 +133,7 @@
       <SustainerNozzleDiameter>2.95</SustainerNozzleDiameter>
       <SustainerCG>53.15</SustainerCG>
       <SustainerIgnitionDelay>6</SustainerIgnitionDelay>
-      <Booster1Engine>N2968  (MIT)</Booster1Engine>
+      <Booster1Engine>N2827  (MIT-Propteam)</Booster1Engine>
       <Booster1LaunchWt>63.47</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>

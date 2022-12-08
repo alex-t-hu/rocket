@@ -9,9 +9,9 @@ def weight(chord, span, sweep, tip):
 def totalWeight(chord, span, sweep, tip):
     return 4 * weight(chord, span, sweep, tip)
 
-TEMPLATE = 'Phoenix_TestLaunch_Sim.CDX1'
-SUSTAINER_BASE_WT = 23.8 # Verify later
-BOOSTER_BASE_WT = 60.5
+TEMPLATE = 'template.CDX1'
+SUSTAINER_BASE_WT = 22.66 # Verify later
+BOOSTER_BASE_WT = 62.75
 def createNewDesign(booster, sustainer, sustainer_weight, booster_weight):
     '''
     Create new design with booster & sustainer = {'Chord': -, 'Span': -, ...} and specified weight.
