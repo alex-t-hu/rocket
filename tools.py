@@ -48,8 +48,8 @@ def generateNewDesign(booster, sustainer, fname):
         f.write(''.join(file))
 
 def sample(low, high, num):
+    samples = {}
     for i in range(num):        
-        samples = {}
         sustainer = {'Chord': np.random.uniform(low = low, high = high),
                      'Span': np.random.uniform(low = low, high = high),
                      'SweepDistance': np.random.uniform(low = low, high = high),
