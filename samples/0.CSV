@@ -1,0 +1,3 @@
+Time (sec),Stage,Stage Time (sec),Mach Number,Angle of Attack (deg),CD,CL,Thrust (lb),Weight (lb),Drag (lb),Lift (lb),CG (in),CP (in),Stability Margin (cal),Accel (ft/sec^2),Accel-V (ft/sec^2),Accel-H (ft/sec^2),Velocity (ft/sec),Vel-V (ft/sec),Vel-H (ft/sec),Pitch Attitude (deg),Flight Path Angle (deg),Altitude (ft),Distance (ft)
+0,B,0,0,0,0,0,0,63.77582,0,0,102.58,82.08294,-5.124266,0,0,0,0,0,0,87,87,0,0
+0.010,B,0.010,0.010,0,1.21536,0,258.4948,63.77582,0,0,102.5599,82.08294,-5.119238,98.2915100110384,98.0542740460144,6.82497483945301,7.46790274241222,0.9805427,0.06824975,87,87,0.004902713,0.0003412487
