@@ -132,8 +132,8 @@
       <SustainerLaunchWt>23.8</SustainerLaunchWt>
       <SustainerNozzleDiameter>3</SustainerNozzleDiameter>
       <SustainerCG>55.56</SustainerCG>
-      <SustainerIgnitionDelay>10</SustainerIgnitionDelay>
-      <Booster1Engine>M2638  (MIT-TEST)</Booster1Engine>
+      <SustainerIgnitionDelay>6</SustainerIgnitionDelay>
+      <Booster1Engine>N3787  (MIT-BOOST)</Booster1Engine>
       <Booster1LaunchWt>60.5</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
