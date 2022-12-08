@@ -47,9 +47,9 @@ def generateNewDesign(booster, sustainer, fname):
     with open(fname, 'w') as f:
         f.write(''.join(file))
 
-def sample(low, high, num):
+def sample(low, high, num, prefix=0):
     samples = {}
-    for i in range(num):        
+    for i in range(prefix, prefix+num):        
         sustainer = {'Chord': np.random.uniform(low = low, high = high),
                      'Span': np.random.uniform(low = low, high = high),
                      'SweepDistance': np.random.uniform(low = low, high = high),
@@ -63,7 +63,7 @@ def sample(low, high, num):
         samples[i] = {'S': sustainer, 'B': booster}
         generateNewDesign(booster, sustainer, f"samples/sample_{i}.CDX1")
     
-    f = open('sample_list.pkl', 'wb')
+    f = open(f'sample_list_{prefix}.pkl', 'wb')
     pickle.dump(samples, f)
     f.close()
 

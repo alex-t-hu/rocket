@@ -42,10 +42,10 @@
       <Color>Black</Color>
       <Fin>
         <Count>4</Count>
-        <Chord>5.695645136304421</Chord>
-        <Span>2.777407101489122</Span>
-        <SweepDistance>8.799069330336717</SweepDistance>
-        <TipChord>2.7628685564801287</TipChord>
+        <Chord>2.7578375068743792</Chord>
+        <Span>5.739777496158019</Span>
+        <SweepDistance>9.111319275172043</SweepDistance>
+        <TipChord>8.010956593906798</TipChord>
         <Thickness>0.2483</Thickness>
         <LERadius>0.05</LERadius>
         <Location>9</Location>
@@ -80,10 +80,10 @@
       <BoattailRearDiameter>3.75</BoattailRearDiameter>
       <Fin>
         <Count>4</Count>
-        <Chord>3.6004752711083423</Chord>
-        <Span>2.304590070105376</Span>
-        <SweepDistance>7.119594563205656</SweepDistance>
-        <TipChord>9.801746183640605</TipChord>
+        <Chord>2.9823194062537013</Chord>
+        <Span>7.335000871186689</Span>
+        <SweepDistance>9.950230451023277</SweepDistance>
+        <TipChord>9.048863342219315</TipChord>
         <Thickness>0.2483</Thickness>
         <LERadius>0.05</LERadius>
         <Location>11</Location>
@@ -129,12 +129,12 @@
   <SimulationList>
     <Simulation>
       <SustainerEngine>M1260  (MIT)</SustainerEngine>
-      <SustainerLaunchWt>24.622563991068176</SustainerLaunchWt>
+      <SustainerLaunchWt>25.981158051053118</SustainerLaunchWt>
       <SustainerNozzleDiameter>2.95</SustainerNozzleDiameter>
       <SustainerCG>53.15</SustainerCG>
       <SustainerIgnitionDelay>6</SustainerIgnitionDelay>
       <Booster1Engine>N2827  (MIT-Propteam)</Booster1Engine>
-      <Booster1LaunchWt>63.95438661643607</Booster1LaunchWt>
+      <Booster1LaunchWt>67.37443789290236</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
       <Booster1IgnitionDelay>0</Booster1IgnitionDelay>
       <Booster1CG>102.58</Booster1CG>
