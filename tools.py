@@ -1,5 +1,6 @@
 import numpy as np
 import argparse
+import pickle
 
 def weight(chord, span, sweep, tip):
     t = 0.25
@@ -46,13 +47,24 @@ def generateNewDesign(booster, sustainer, fname):
     with open(fname, 'w') as f:
         f.write(''.join(file))
 
-def sampleFixedBooster(booster, low, high, num):
+def sample(low, high, num):
     for i in range(num):        
+        samples = {}
         sustainer = {'Chord': np.random.uniform(low = low, high = high),
                      'Span': np.random.uniform(low = low, high = high),
                      'SweepDistance': np.random.uniform(low = low, high = high),
                      'TipChord': np.random.uniform(low = low, high = high)}
         
+        booster = {'Chord': np.random.uniform(low = low, high = high),
+                     'Span': np.random.uniform(low = low, high = high),
+                     'SweepDistance': np.random.uniform(low = low, high = high),
+                     'TipChord': np.random.uniform(low = low, high = high)}
+
+        samples[i] = {'S': sustainer, 'B': booster}
         generateNewDesign(booster, sustainer, f"samples/sample_{i}.CDX1")
+    
+    f = open('sample_list.pkl', 'wb')
+    pickle.dump(samples, f)
+    f.close()
 
 
